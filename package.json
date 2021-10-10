@@ -4,16 +4,24 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "seed": "node modles/seeds/todoSeeder.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gosienna/2-3_To-do_List.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gosienna/2-3_To-do_List/issues"
+  },
+  "homepage": "https://github.com/gosienna/2-3_To-do_List#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
     "express-handlebars": "^5.3.4",
-    "mongoose": "^6.0.8"
+    "mongoose": "^6.0.10",
+    "nodemon": "^2.0.13"
   }
 }
